@@ -75,7 +75,11 @@ print(Altaf().say_hi())
 ## 📉 Contribution Activity (live trading-style graph)
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Altaf-byt&theme=tokyo-night&hide_border=true&area=true&line=00e676&point=ffffff&color=7c4dff&area_color=00e676" alt="Contribution activity graph" width="100%" />
+  <img src="./contribution-graph.svg" alt="Contribution activity graph" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Altaf-byt&theme=onedark&no-frame=true&row=1&column=6" alt="Trophies" width="100%" />
 </p>
 
 ---
