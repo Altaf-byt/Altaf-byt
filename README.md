@@ -72,10 +72,10 @@ print(Altaf().say_hi())
   <img src="https://streak-stats.demolab.com?user=Altaf-byt&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="97%" />
 </p>
 
-## 📉 Contribution Activity (live trading-style graph)
+## 🧠 My Skills Network
 
 <p align="center">
-  <img src="./contribution-graph.svg" alt="Contribution activity graph" width="100%" />
+  <img src="./neural-banner.svg" alt="Animated neural network of my skills: Python, web frontend, JavaScript, web apps, scripting and growth" width="100%" />
 </p>
 
 <p align="center">
