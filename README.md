@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Altaf-byt&label=Profile+Views&color=00e676&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Learning-Python%20%26%20Web-00e676?style=for-the-badge&logo=python&logoColor=white" alt="Learning Python and Web" />
   <img src="https://img.shields.io/github/followers/Altaf-byt?label=Followers&style=for-the-badge&logo=github&color=7c4dff" alt="Followers" />
 </p>
 
