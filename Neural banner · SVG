@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" role="img" aria-label="Animated neural network banner about Altaf: Python, HTML5, CSS3, JavaScript, web apps and scripting">
+  <defs>
+    <radialGradient id="centerGlow" cx="500" cy="307" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c4dff" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#00b0ff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" gradientUnits="userSpaceOnUse" x1="270" y1="0" x2="730" y2="0">
+      <stop offset="0" stop-color="#00b0ff"/>
+      <stop offset="0.5" stop-color="#b388ff"/>
+      <stop offset="1" stop-color="#00e676"/>
+    </linearGradient>
+    <linearGradient id="topL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00b0ff"/>
+      <stop offset="1" stop-color="#00b0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c4dff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7c4dff"/>
+      <stop offset="1" stop-color="#7c4dff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00e676"/>
+      <stop offset="1" stop-color="#00b0ff"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b0ff"/>
+      <stop offset="1" stop-color="#7c4dff"/>
+    </linearGradient>
+    <pattern id="cells" x="205" y="270" width="11" height="11" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" rx="1.5" fill="#00e676"/>
+    </pattern>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#16213a"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur6" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .f { font-family: 'Fira Code', Consolas, 'Courier New', monospace; }
+    .lab { font-size: 8px; letter-spacing: 2px; }
+    .ttl { font-size: 16px; font-weight: bold; letter-spacing: 1px; fill: #ffffff; }
+    .bul { font-size: 11.5px; fill: #aab6d0; }
+    .ni, .nh, .no { fill: #05070d; stroke-width: 2; animation: node 2.4s ease-in-out infinite; }
+    .ni { stroke: #00b0ff; }
+    .nh { stroke: #7c4dff; }
+    .no { stroke: #00e676; stroke-width: 2.5; }
+    @keyframes node { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    .flow { stroke-dasharray: 3 8; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -22; } }
+    .tw { animation: tw 3s ease-in-out infinite; }
+    @keyframes tw { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.9; } }
+    .blink { animation: blink 1.6s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    .tag { animation: tag 3s ease-in-out infinite; }
+    @keyframes tag { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+  </style>
+
+  <!-- black background -->
+  <rect x="0" y="0" width="1000" height="580" rx="22" fill="#000000"/>
+  <rect x="0" y="0" width="1000" height="580" rx="22" fill="url(#dots)"/>
+  <circle cx="500" cy="307" r="260" fill="url(#centerGlow)"/>
+  <rect x="10" y="10" width="980" height="560" rx="20" fill="none" stroke="#0e1a2e" stroke-width="1.5"/>
+
+  <!-- glowing corner brackets -->
+  <g fill="none" stroke="#00b0ff" stroke-width="3.5" stroke-linecap="round" filter="url(#glow)">
+    <path d="M10,48 V28 Q10,10 28,10 H48"/>
+    <path d="M952,10 H972 Q990,10 990,28 V48"/>
+    <path d="M10,532 V552 Q10,570 28,570 H48"/>
+    <path d="M990,532 V552 Q990,570 972,570 H952"/>
+  </g>
+
+  <!-- twinkling particles -->
+  <g fill="#7c4dff">
+    <circle class="tw" cx="60"  cy="95"  r="1.6" style="animation-delay:0s"/>
+    <circle class="tw" cx="310" cy="70"  r="1.4" style="animation-delay:0.7s"/>
+    <circle class="tw" cx="690" cy="66"  r="1.4" style="animation-delay:1.4s"/>
+    <circle class="tw" cx="940" cy="92"  r="1.6" style="animation-delay:2.1s"/>
+    <circle class="tw" cx="300" cy="500" r="1.5" style="animation-delay:0.4s"/>
+    <circle class="tw" cx="720" cy="505" r="1.5" style="animation-delay:1.1s"/>
+    <circle class="tw" cx="480" cy="92"  r="1.3" style="animation-delay:1.8s"/>
+    <circle class="tw" cx="25"  cy="300" r="1.5" style="animation-delay:2.5s"/>
+    <circle class="tw" cx="975" cy="310" r="1.5" style="animation-delay:0.9s"/>
+  </g>
+  <g fill="#00b0ff">
+    <circle class="tw" cx="150" cy="500" r="1.5" style="animation-delay:1.3s"/>
+    <circle class="tw" cx="860" cy="498" r="1.5" style="animation-delay:0.2s"/>
+    <circle class="tw" cx="395" cy="62"  r="1.3" style="animation-delay:2.2s"/>
+    <circle class="tw" cx="610" cy="60"  r="1.3" style="animation-delay:0.5s"/>
+    <circle class="tw" cx="340" cy="500" r="1.3" style="animation-delay:1.9s"/>
+  </g>
+
+  <!-- scanning line -->
+  <rect x="14" y="10" width="972" height="2" fill="#00b0ff" opacity="0.10">
+    <animate attributeName="y" from="10" to="568" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- title -->
+  <text x="500" y="60" class="f" font-size="44" font-weight="bold" letter-spacing="10" text-anchor="middle" fill="#00b0ff" filter="url(#blur6)" opacity="0.6">ALTAF · CODE
+    <animate attributeName="opacity" values="0.35;0.8;0.35" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="500" y="60" class="f" font-size="44" font-weight="bold" letter-spacing="10" text-anchor="middle" fill="url(#titleGrad)">ALTAF · CODE</text>
+  <text x="500" y="88" class="f" font-size="11" letter-spacing="4" text-anchor="middle" fill="#6b7a99">PYTHON / HTML5 / CSS3 / JAVASCRIPT / WEB APPS / SCRIPTING</text>
+  <g>
+    <line x1="150" y1="102" x2="480" y2="102" stroke="#16264a" stroke-width="1"/>
+    <line x1="520" y1="102" x2="850" y2="102" stroke="#16264a" stroke-width="1"/>
+    <path d="M500,96 L506,102 L500,108 L494,102 Z" fill="#00e676" filter="url(#softglow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- network ring + glow -->
+  <circle cx="500" cy="307" r="175" fill="none" stroke="#1b2b52" stroke-width="1.2" stroke-dasharray="2 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 307" to="360 500 307" dur="50s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="307" r="152" fill="none" stroke="#0f6aa6" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="500" cy="307" r="198" fill="none" stroke="#7c4dff" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="40 14">
+    <animateTransform attributeName="transform" type="rotate" from="360 500 307" to="0 500 307" dur="70s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- network label pill -->
+  <rect x="420" y="108" width="160" height="24" rx="12" fill="#050816" stroke="#00b0ff" stroke-opacity="0.8"/>
+  <text x="500" y="124" class="f" font-size="10" letter-spacing="3" text-anchor="middle" fill="#dfe7ff">LEARNING NETWORK</text>
+
+  <!-- network edges (faint) -->
+  <g fill="none" stroke="#00b0ff" stroke-opacity="0.16" stroke-width="1">
+    <path d="M360,210L430,185M360,210L430,245M360,210L430,305M360,210L430,365M360,210L430,425M360,275L430,185M360,275L430,245M360,275L430,305M360,275L430,365M360,275L430,425M360,340L430,185M360,340L430,245M360,340L430,305M360,340L430,365M360,340L430,425M360,405L430,185M360,405L430,245M360,405L430,305M360,405L430,365M360,405L430,425"/>
+    <path d="M430,185L500,171M430,185L500,225M430,185L500,279M430,185L500,333M430,185L500,387M430,185L500,441M430,245L500,171M430,245L500,225M430,245L500,279M430,245L500,333M430,245L500,387M430,245L500,441M430,305L500,171M430,305L500,225M430,305L500,279M430,305L500,333M430,305L500,387M430,305L500,441M430,365L500,171M430,365L500,225M430,365L500,279M430,365L500,333M430,365L500,387M430,365L500,441M430,425L500,171M430,425L500,225M430,425L500,279M430,425L500,333M430,425L500,387M430,425L500,441"/>
+    <path d="M500,171L570,185M500,171L570,245M500,171L570,305M500,171L570,365M500,171L570,425M500,225L570,185M500,225L570,245M500,225L570,305M500,225L570,365M500,225L570,425M500,279L570,185M500,279L570,245M500,279L570,305M500,279L570,365M500,279L570,425M500,333L570,185M500,333L570,245M500,333L570,305M500,333L570,365M500,333L570,425M500,387L570,185M500,387L570,245M500,387L570,305M500,387L570,365M500,387L570,425M500,441L570,185M500,441L570,245M500,441L570,305M500,441L570,365M500,441L570,425"/>
+    <path d="M570,185L640,245M570,185L640,307M570,185L640,369M570,245L640,245M570,245L640,307M570,245L640,369M570,305L640,245M570,305L640,307M570,305L640,369M570,365L640,245M570,365L640,307M570,365L640,369M570,425L640,245M570,425L640,307M570,425L640,369"/>
+  </g>
+  <!-- network edges (animated flowing dashes) -->
+  <g fill="none" stroke="#b388ff" stroke-opacity="0.6" stroke-width="1.1" class="flow">
+    <path d="M360,210L430,185M360,210L430,245M360,210L430,305M360,210L430,365M360,210L430,425M360,275L430,185M360,275L430,245M360,275L430,305M360,275L430,365M360,275L430,425M360,340L430,185M360,340L430,245M360,340L430,305M360,340L430,365M360,340L430,425M360,405L430,185M360,405L430,245M360,405L430,305M360,405L430,365M360,405L430,425"/>
+    <path d="M430,185L500,171M430,185L500,225M430,185L500,279M430,185L500,333M430,185L500,387M430,185L500,441M430,245L500,171M430,245L500,225M430,245L500,279M430,245L500,333M430,245L500,387M430,245L500,441M430,305L500,171M430,305L500,225M430,305L500,279M430,305L500,333M430,305L500,387M430,305L500,441M430,365L500,171M430,365L500,225M430,365L500,279M430,365L500,333M430,365L500,387M430,365L500,441M430,425L500,171M430,425L500,225M430,425L500,279M430,425L500,333M430,425L500,387M430,425L500,441"/>
+    <path d="M500,171L570,185M500,171L570,245M500,171L570,305M500,171L570,365M500,171L570,425M500,225L570,185M500,225L570,245M500,225L570,305M500,225L570,365M500,225L570,425M500,279L570,185M500,279L570,245M500,279L570,305M500,279L570,365M500,279L570,425M500,333L570,185M500,333L570,245M500,333L570,305M500,333L570,365M500,333L570,425M500,387L570,185M500,387L570,245M500,387L570,305M500,387L570,365M500,387L570,425M500,441L570,185M500,441L570,245M500,441L570,305M500,441L570,365M500,441L570,425"/>
+    <path d="M570,185L640,245M570,185L640,307M570,185L640,369M570,245L640,245M570,245L640,307M570,245L640,369M570,305L640,245M570,305L640,307M570,305L640,369M570,365L640,245M570,365L640,307M570,365L640,369M570,425L640,245M570,425L640,307M570,425L640,369"/>
+  </g>
+
+  <!-- nodes -->
+  <g filter="url(#softglow)">
+    <circle class="ni" cx="360" cy="210" r="8" style="animation-delay:0.00s"/><circle class="ni" cx="360" cy="275" r="8" style="animation-delay:0.35s"/><circle class="ni" cx="360" cy="340" r="8" style="animation-delay:0.70s"/><circle class="ni" cx="360" cy="405" r="8" style="animation-delay:1.05s"/><circle class="nh" cx="430" cy="185" r="8" style="animation-delay:1.40s"/><circle class="nh" cx="430" cy="245" r="8" style="animation-delay:1.75s"/><circle class="nh" cx="430" cy="305" r="8" style="animation-delay:2.10s"/><circle class="nh" cx="430" cy="365" r="8" style="animation-delay:0.00s"/><circle class="nh" cx="430" cy="425" r="8" style="animation-delay:0.35s"/><circle class="nh" cx="500" cy="171" r="8" style="animation-delay:0.70s"/><circle class="nh" cx="500" cy="225" r="8" style="animation-delay:1.05s"/><circle class="nh" cx="500" cy="279" r="8" style="animation-delay:1.40s"/><circle class="nh" cx="500" cy="333" r="8" style="animation-delay:1.75s"/><circle class="nh" cx="500" cy="387" r="8" style="animation-delay:2.10s"/><circle class="nh" cx="500" cy="441" r="8" style="animation-delay:0.00s"/><circle class="nh" cx="570" cy="185" r="8" style="animation-delay:0.35s"/><circle class="nh" cx="570" cy="245" r="8" style="animation-delay:0.70s"/><circle class="nh" cx="570" cy="305" r="8" style="animation-delay:1.05s"/><circle class="nh" cx="570" cy="365" r="8" style="animation-delay:1.40s"/><circle class="nh" cx="570" cy="425" r="8" style="animation-delay:1.75s"/><circle class="no" cx="640" cy="245" r="11" style="animation-delay:2.10s"/><circle class="no" cx="640" cy="307" r="11" style="animation-delay:0.00s"/><circle class="no" cx="640" cy="369" r="11" style="animation-delay:0.35s"/>
+  </g>
+
+  <!-- layer labels -->
+  <g class="f lab" fill="#5b6b8c" text-anchor="middle">
+    <text x="360" y="474">LEARN</text>
+    <text x="500" y="474">PRACTICE</text>
+    <text x="640" y="474">BUILD</text>
+  </g>
+
+  <!-- connectors: left cards -> input layer -->
+  <g fill="none" stroke="#00b0ff" stroke-width="1.5" stroke-dasharray="4 5" stroke-opacity="0.8" class="flow">
+    <path d="M270,172 C315,172 315,210 360,210"/>
+    <path d="M270,302 C315,302 315,275 360,275"/>
+    <path d="M270,302 C315,302 315,340 360,340"/>
+    <path d="M270,432 C315,432 315,405 360,405"/>
+  </g>
+  <!-- connectors: output layer -> right cards -->
+  <g fill="none" stroke="#7c4dff" stroke-width="1.5" stroke-dasharray="4 5" stroke-opacity="0.9" class="flow">
+    <path d="M640,245 C685,245 685,172 730,172"/>
+    <path d="M640,307 C685,307 685,302 730,302"/>
+    <path d="M640,369 C685,369 685,432 730,432"/>
+  </g>
+  <!-- travelling pulses -->
+  <g fill="#ffffff" filter="url(#softglow)">
+    <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" path="M270,172 C315,172 315,210 360,210"/></circle>
+    <circle r="3"><animateMotion dur="2.8s" begin="0.6s" repeatCount="indefinite" path="M270,302 C315,302 315,275 360,275"/></circle>
+    <circle r="3"><animateMotion dur="2.6s" begin="1.1s" repeatCount="indefinite" path="M270,302 C315,302 315,340 360,340"/></circle>
+    <circle r="3"><animateMotion dur="2.5s" begin="0.3s" repeatCount="indefinite" path="M270,432 C315,432 315,405 360,405"/></circle>
+    <circle r="3"><animateMotion dur="2.4s" begin="0.9s" repeatCount="indefinite" path="M640,245 C685,245 685,172 730,172"/></circle>
+    <circle r="3"><animateMotion dur="2.2s" begin="0.2s" repeatCount="indefinite" path="M640,307 C685,307 685,302 730,302"/></circle>
+    <circle r="3"><animateMotion dur="2.7s" begin="1.4s" repeatCount="indefinite" path="M640,369 C685,369 685,432 730,432"/></circle>
+  </g>
+  <g fill="#00b0ff">
+    <circle cx="270" cy="172" r="4"/><circle cx="270" cy="302" r="4"/><circle cx="270" cy="432" r="4"/>
+  </g>
+  <g fill="#7c4dff">
+    <circle cx="730" cy="172" r="4"/><circle cx="730" cy="302" r="4"/><circle cx="730" cy="432" r="4"/>
+  </g>
+
+  <!-- ===== LEFT CARDS ===== -->
+  <!-- Python -->
+  <g class="f">
+    <rect x="30" y="115" width="240" height="115" rx="10" fill="#04070f" stroke="#00b0ff" stroke-opacity="0.35"/>
+    <rect x="30" y="115" width="240" height="3" fill="url(#topL)"/>
+    <text x="45" y="136" class="lab" fill="#4dc3ff" opacity="0.8">LEARNED LAYER</text>
+    <text x="45" y="158" class="ttl" filter="url(#softglow)">PYTHON</text>
+    <line x1="45" y1="168" x2="215" y2="168" stroke="#14233f"/>
+    <g fill="#00b0ff"><circle cx="48" cy="185" r="2.5"/><circle cx="48" cy="202" r="2.5"/><circle cx="48" cy="219" r="2.5"/></g>
+    <g class="bul"><text x="60" y="189" class="bul">Scripting and automation</text><text x="60" y="206" class="bul">Problem solving</text><text x="60" y="223" class="bul">Small useful tools</text></g>
+    <g>
+      <circle cx="238" cy="148" r="16" fill="none" stroke="#00b0ff" stroke-opacity="0.6"/>
+      <circle cx="238" cy="148" r="9" fill="none" stroke="#7c4dff">
+        <animate attributeName="r" values="6;14;6" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="238" cy="148" r="4" fill="#00e676" filter="url(#softglow)"/>
+    </g>
+  </g>
+
+  <!-- Web frontend -->
+  <g class="f">
+    <rect x="30" y="245" width="240" height="115" rx="10" fill="#04070f" stroke="#00b0ff" stroke-opacity="0.35"/>
+    <rect x="30" y="245" width="240" height="3" fill="url(#topL)"/>
+    <text x="45" y="266" class="lab" fill="#4dc3ff" opacity="0.8">LEARNED LAYER</text>
+    <text x="45" y="288" class="ttl" filter="url(#softglow)">WEB FRONTEND</text>
+    <line x1="45" y1="298" x2="215" y2="298" stroke="#14233f"/>
+    <g fill="#00b0ff"><circle cx="48" cy="315" r="2.5"/><circle cx="48" cy="332" r="2.5"/><circle cx="48" cy="349" r="2.5"/></g>
+    <text x="60" y="319" class="bul">HTML5 page structure</text><text x="60" y="336" class="bul">CSS3 layouts, animation</text><text x="60" y="353" class="bul">Responsive design</text>
+    <rect x="205" y="268" width="52" height="30" fill="url(#cells)" opacity="0.7">
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- JavaScript -->
+  <g class="f">
+    <rect x="30" y="375" width="240" height="115" rx="10" fill="#04070f" stroke="#00b0ff" stroke-opacity="0.35"/>
+    <rect x="30" y="375" width="240" height="3" fill="url(#topL)"/>
+    <text x="45" y="396" class="lab" fill="#4dc3ff" opacity="0.8">LEARNED LAYER</text>
+    <text x="45" y="418" class="ttl" filter="url(#softglow)">JAVASCRIPT</text>
+    <line x1="45" y1="428" x2="215" y2="428" stroke="#14233f"/>
+    <g fill="#00b0ff"><circle cx="48" cy="445" r="2.5"/><circle cx="48" cy="462" r="2.5"/><circle cx="48" cy="479" r="2.5"/></g>
+    <text x="60" y="449" class="bul">DOM and events</text><text x="60" y="466" class="bul">Interactive pages</text><text x="60" y="483" class="bul">Logic for web apps</text>
+    <g fill="url(#barFill)">
+      <rect x="208" y="424" width="9" height="8"><animate attributeName="height" values="8;22;8" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="424;410;424" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="222" y="418" width="9" height="14"><animate attributeName="height" values="14;26;14" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="418;406;418" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="236" y="420" width="9" height="12"><animate attributeName="height" values="12;28;12" dur="3.4s" repeatCount="indefinite"/><animate attributeName="y" values="420;404;420" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="250" y="414" width="9" height="18"><animate attributeName="height" values="18;30;18" dur="2.8s" repeatCount="indefinite"/><animate attributeName="y" values="414;402;414" dur="2.8s" repeatCount="indefinite"/></rect>
+    </g>
+    <line x1="204" y1="433" x2="262" y2="433" stroke="#00b0ff" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- ===== RIGHT CARDS ===== -->
+  <!-- Web apps -->
+  <g class="f">
+    <rect x="730" y="115" width="240" height="115" rx="10" fill="#04070f" stroke="#7c4dff" stroke-opacity="0.45"/>
+    <rect x="730" y="115" width="240" height="3" fill="url(#topR)"/>
+    <text x="745" y="136" class="lab" fill="#b388ff" opacity="0.85">BUILD LAYER</text>
+    <text x="745" y="158" class="ttl" filter="url(#softglow)">WEB APPS</text>
+    <line x1="745" y1="168" x2="915" y2="168" stroke="#1f1a40"/>
+    <g fill="#7c4dff"><circle cx="748" cy="185" r="2.5"/><circle cx="748" cy="202" r="2.5"/><circle cx="748" cy="219" r="2.5"/></g>
+    <text x="760" y="189" class="bul">Pages from scratch</text><text x="760" y="206" class="bul">Forms and logic</text><text x="760" y="223" class="bul">Clean, modern UI</text>
+    <g>
+      <g fill="#b388ff"><circle cx="922" cy="140" r="2.5" class="tw"/><circle cx="936" cy="150" r="2.5" class="tw" style="animation-delay:.5s"/><circle cx="929" cy="164" r="2.5" class="tw" style="animation-delay:1s"/><circle cx="948" cy="142" r="2.5" class="tw" style="animation-delay:1.5s"/><circle cx="954" cy="160" r="2.5" class="tw" style="animation-delay:2s"/></g>
+      <line x1="918" y1="176" x2="960" y2="146" stroke="#00e676" stroke-width="2" stroke-dasharray="4 4" class="flow" filter="url(#softglow)"/>
+    </g>
+  </g>
+
+  <!-- Scripting -->
+  <g class="f">
+    <rect x="730" y="245" width="240" height="115" rx="10" fill="#04070f" stroke="#7c4dff" stroke-opacity="0.45"/>
+    <rect x="730" y="245" width="240" height="3" fill="url(#topR)"/>
+    <text x="745" y="266" class="lab" fill="#b388ff" opacity="0.85">BUILD LAYER</text>
+    <text x="745" y="288" class="ttl" filter="url(#softglow)">SCRIPTING</text>
+    <line x1="745" y1="298" x2="915" y2="298" stroke="#1f1a40"/>
+    <g fill="#7c4dff"><circle cx="748" cy="315" r="2.5"/><circle cx="748" cy="332" r="2.5"/><circle cx="748" cy="349" r="2.5"/></g>
+    <text x="760" y="319" class="bul">Automate boring tasks</text><text x="760" y="336" class="bul">File handling</text><text x="760" y="353" class="bul">Quick utilities</text>
+    <g fill="#0a0f1e" stroke="#00b0ff" stroke-width="1.5">
+      <rect x="912" y="266" width="10" height="38" rx="2"><animate attributeName="stroke" values="#00b0ff;#00e676;#00b0ff" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="928" y="272" width="10" height="26" rx="2"><animate attributeName="stroke" values="#00b0ff;#00e676;#00b0ff" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+      <rect x="944" y="268" width="10" height="34" rx="2"><animate attributeName="stroke" values="#00b0ff;#00e676;#00b0ff" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- Growth -->
+  <g class="f">
+    <rect x="730" y="375" width="240" height="115" rx="10" fill="#04070f" stroke="#7c4dff" stroke-opacity="0.45"/>
+    <rect x="730" y="375" width="240" height="3" fill="url(#topR)"/>
+    <text x="745" y="396" class="lab" fill="#b388ff" opacity="0.85">BUILD LAYER</text>
+    <text x="745" y="418" class="ttl" filter="url(#softglow)">GROWTH</text>
+    <line x1="745" y1="428" x2="915" y2="428" stroke="#1f1a40"/>
+    <g fill="#7c4dff"><circle cx="748" cy="445" r="2.5"/><circle cx="748" cy="462" r="2.5"/><circle cx="748" cy="479" r="2.5"/></g>
+    <text x="760" y="449" class="bul">Practice every day</text><text x="760" y="466" class="bul">Learn from projects</text><text x="760" y="483" class="bul">Share on GitHub</text>
+    <g fill="#04070f" stroke="#00e676" stroke-width="1">
+      <rect x="896" y="392" width="62" height="12" rx="3" class="tag"/>
+      <rect x="896" y="408" width="62" height="12" rx="3" class="tag" style="animation-delay:1s"/>
+      <rect x="896" y="424" width="62" height="12" rx="3" class="tag" style="animation-delay:2s"/>
+    </g>
+    <g font-size="7" letter-spacing="1.5" fill="#00e676" text-anchor="middle">
+      <text x="927" y="401">LEARN</text><text x="927" y="417">BUILD</text><text x="927" y="433">SHIP</text>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <g class="f">
+    <circle cx="48" cy="535" r="3.5" fill="#00e676" class="blink"/>
+    <text x="60" y="538" font-size="9" letter-spacing="2" fill="#6b7a99">STATUS: LEARNING</text>
+    <rect x="400" y="533" width="200" height="4" rx="2" fill="#0c1426"/>
+    <rect x="400" y="533" width="0" height="4" rx="2" fill="url(#progress)" filter="url(#softglow)">
+      <animate attributeName="width" values="0;200;200;0" keyTimes="0;0.7;0.9;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="952" y="538" font-size="9" letter-spacing="2" fill="#6b7a99" text-anchor="end">BUGS DOWN / SKILLS UP</text>
+  </g>
+</svg>
