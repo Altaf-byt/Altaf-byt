@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 66" width="260" height="66" role="img" aria-label="LinkedIn: Altaf Azimi">
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
+
+</defs>
+<style>
+.t{font-family:'Times New Roman', Times, 'Liberation Serif', serif;}
+
+</style>
+<polygon points="14,2 258,2 258,52 246,64 2,64 2,14" fill="#03100a" stroke="#00e5ff" stroke-width="2.2" filter="url(#soft)"/><polygon points="14,2 258,2 258,52 246,64 2,64 2,14" fill="none" stroke="#fff" stroke-width="3" pathLength="100" stroke-dasharray="12 88" filter="url(#soft)"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3s" repeatCount="indefinite"/></polygon><rect x="14" y="14" width="40" height="38" fill="none" stroke="#00e5ff" stroke-width="2"/><text class="t" x="34" y="40" font-size="19" font-weight="bold" text-anchor="middle" fill="#00e5ff">in</text><text class="t" x="68" y="28" font-size="13" letter-spacing="3" fill="#6f8f7a">&gt; LINKEDIN</text><text class="t" x="68" y="51" font-size="22" font-weight="bold" fill="#d8ffe3">Altaf Azimi</text><rect x="230" y="46" width="9" height="12" fill="#00e5ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
